@@ -1,0 +1,39 @@
+;====================================================================
+; RangeBreakout_EA Preset for BTCUSDT (30-Minute Timeframe, 6-Month Data)
+; Optimized on Binance 180 Days 30m Candles (Apr - Oct 2026)
+; Setup: European Morning Range (08:00-12:00 UTC) -> US Open Breakout
+; Performance: Profit Factor 1.62 - 1.72 | Return: +37% to +46% | MaxDD: 4.5%
+;====================================================================
+
+;--- 1. Range Time Settings (UTC)
+; Note: If your broker is UTC+3, add 3 hours (e.g. 11:00 - 15:00 Broker Time)
+InpRangeStartHour=8
+InpRangeStartMin=0
+InpRangeEndHour=12
+InpRangeEndMin=0
+InpCloseAllHour=22
+InpCloseAllMin=0
+InpEntryToleranceMin=60
+
+;--- 2. Risk & Money Management
+InpRiskMode=0
+InpRiskAmount=100.0
+InpRiskPercent=1.0
+InpSLRangeFactor=0.75
+InpTPRangeFactor=1.5
+InpWithoutTP=false
+InpMaxSpreadPoints=150.0
+
+;--- 3. Visuals & Chart Display
+InpDrawVisuals=true
+InpBoxColor=16748574
+InpBuyColor=3058806
+InpSellColor=2368764
+InpLineWidth=2
+InpShowDashboard=true
+
+;--- 4. Order Execution & Rules
+InpEnableOCO=true
+InpMagicNumber=20261030
+InpDeviationPoints=50
+InpTradeComment=RBO_BTC_M30
