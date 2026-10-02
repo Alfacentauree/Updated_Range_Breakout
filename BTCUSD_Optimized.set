@@ -1,0 +1,36 @@
+;====================================================================
+; RangeBreakout_EA Optimized Preset for BTCUSDT / BTCUSD
+; Optimized on 60 Days 5-minute Intraday Data (PF: 2.78, WinRate: 65.9%)
+;====================================================================
+
+;--- 1. Range Time Settings
+InpRangeStartHour=2
+InpRangeStartMin=0
+InpRangeEndHour=6
+InpRangeEndMin=0
+InpCloseAllHour=20
+InpCloseAllMin=0
+InpEntryToleranceMin=120
+
+;--- 2. Risk & Money Management
+InpRiskMode=0
+InpRiskAmount=100.0
+InpRiskPercent=1.0
+InpSLRangeFactor=1.25
+InpTPRangeFactor=2.5
+InpWithoutTP=false
+InpMaxSpreadPoints=150.0
+
+;--- 3. Visuals & Chart Display
+InpDrawVisuals=true
+InpBoxColor=16748574
+InpBuyColor=3058806
+InpSellColor=2368764
+InpLineWidth=2
+InpShowDashboard=true
+
+;--- 4. Order Execution & Rules
+InpEnableOCO=true
+InpMagicNumber=20261002
+InpDeviationPoints=50
+InpTradeComment=RBO_BTC
